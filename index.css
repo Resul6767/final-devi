@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #333;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.navbar tr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar td {
+    padding: 14px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.segment-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.segment {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    background-color: #D2B48C;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.segment-1 .col-6 {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.segment-2 .col-12 {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.segment-2 .col-4 {
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.segment h2, .segment h3 {
+    margin-top: 0;
+}
+
+.segment p, .segment ul {
+    margin: 5px 0;
+}
+
+.segment ul {
+    list-style: none;
+    padding: 0;
+}
+
+.segment ul li {
+    margin: 5px 0;
+}
+
+.segment ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.segment ul li a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #a53b3b;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.navbar tr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar td {
+    padding: 14px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    .navbar tr {
+        flex-direction: column;
+    }
+    
+    .navbar td {
+        text-align: center;
+    }
+}
+
+.data-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #fff;
+    padding: 8px;
+    text-align: left;
+    color: #fff;
+}
+
+.data-table th {
+    background-color: #333;
+}
+
+.data-table tr {
+    background-color: #575757;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
